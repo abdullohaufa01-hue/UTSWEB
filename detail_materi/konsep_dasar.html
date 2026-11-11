@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konsep Dasar Teorema Pythagoras - MathFun</title>
+    <link rel="stylesheet" href="../uts.css">
+</head>
+<body id="top">
+    <header>
+        <div class="logo-container"><h1>📐 MathFun - Teorema Pythagoras</h1></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="../materi.html" class="active">Materi</a></li>
+                <li><a href="../kuis.html">Kuis</a></li>
+                <li><a href="../glosarium.html">Glosarium</a></li>
+                <li><a href="../profil.html">Profil Pengembang</a></li>
+                <li><a href="../referensi.html">Referensi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="detail-box">
+            <h2>1. Konsep Dasar Teorema Pythagoras</h2>
+            <p>TTeorema Pythagoras adalah aturan fundamental dalam geometri bidang datar yang berlaku secara khusus pada segitiga siku-siku, yaitu segitiga yang salah satu sudutnya bernilai tepat 90 derajat.</p>
+            <p>Secara mendasar, teorema ini menyatakan bahwa kuadrat panjang sisi miring sama dengan jumlah kuadrat panjang dari kedua sisi siku-sikunya. Rumus matematisnya dituliskan sebagai berikut:</p>
+            <div class="formula-box">
+                <code>c² = a² + b²</code>
+            </div>
+
+            <h3>Video Pembelajaran Bab 1:</h3>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xoO1Z_cyqGM?si=nziPu7XFjUxSRLnd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p class="video-source-note"><b>Sumber Video Edukasi: </b> kejarcita</p>
+
+            <h3>Keterangan Unsur:</h3>
+            <ul class="list-indented-mb">
+                <li><b>c</b> = Sisi miring atau hipotenusa (sisi terpanjang yang berada tepat di seberang sudut siku-siku)[cite: 9].</li>
+                <li><b>a dan b</b> = Sisi-sisi penyiku yang saling tegak lurus membentuk sudut 90 derajat[cite: 9].</li>
+            </ul>
+            
+            <div class="soal-card">
+                <h3>Contoh Soal & Pembahasan</h3>
+                <p><b>Soal:</b> Manakah sisi yang bertindak sebagai sisi miring (hipotenusa) pada segitiga siku-siku PQR jika sudut siku-siku terletak di titik Q?[cite: 9]</p>
+                <form onsubmit="bukaPembahasan(event, 'p1')">
+                    <label><input type="radio" name="pila" value="A"> A. Sisi PQ</label><br>
+                    <label><input type="radio" name="pila" value="B"> B. Sisi QR</label><br>
+                    <label><input type="radio" name="pila" value="C"> C. Sisi PR</label><br>
+                    <div>
+                        <button type="submit" class="btn btn-primary btn-sm">Submit Jawaban 🚀</button>
+                    </div>
+                </form>
+                <div id="p1" class="pembahasan-box">
+                    <p><b>Kunci Jawaban: C (Sisi PR)</b><br><u>Penjelasan:</u> Sisi miring (hipotenusa) selalu terletak di seberang sudut siku-siku. Karena sudut siku-siku berada di titik Q, maka sisi yang berhadapan langsung adalah sisi PR[cite: 9].</p>
+                </div>
+            </div>
+
+            <div class="mt-4"><a href="../materi.html" class="btn btn-primary">⬅️ Kembali ke Daftar Materi</a></div>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Website Pembelajaran Teorema Pythagoras SMP Kelas VIII. Dikembangkan oleh Abdulloh Aufa Sunni.</p></footer>
+    <script>function bukaPembahasan(e, id) { e.preventDefault(); document.getElementById(id).style.display = 'block'; }</script>
+</body>
+</html>

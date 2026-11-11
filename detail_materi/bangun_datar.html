@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penerapan pada Bangun Datar - MathFun</title>
+    <link rel="stylesheet" href="../uts.css">
+</head>
+<body id="top">
+    <header>
+        <div class="logo-container"><h1>📐 MathFun - Teorema Pythagoras</h1></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="../materi.html" class="active">Materi</a></li>
+                <li><a href="../kuis.html">Kuis</a></li>
+                <li><a href="../glosarium.html">Glosarium</a></li>
+                <li><a href="../profil.html">Profil Pengembang</a></li>
+                <li><a href="../referensi.html">Referensi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="detail-box">
+            <h2>6. Penerapan pada Bangun Datar</h2>
+            <p>Teorema Pythagoras sangat esensial digunakan untuk menghitung panjang diagonal atau sisi pada berbagai bangun datar:</p>
+            
+            <h3>Video Pembelajaran Bab 6:</h3>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uyBaVBAIHNg?si=O2VNmJSeDAFMo5LY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p class="video-source-note"><b>Sumber Video Edukasi: </b>Matematika Hebat</p>
+
+
+            <ul class="list-indented-mb">
+                <li><b>Persegi Panjang dan Persegi:</b> Pada persegi atau persegi panjang, garis diagonal membagi bangun tersebut menjadi dua buah segitiga siku-siku yang kongruen. Biasanya digunakan untuk menghitung panjang diagonal bidang jika ukuran panjang dan lebarnya diketahui.</li>
+                <li><b>Belah Ketupat dan Layang-layang:</b> Diagonal-diagonal pada belah ketupat dan layang-layang berpotongan tegak lurus (90°) di tengah, sehingga membentuk empat buah segitiga siku-siku kecil. Jika diketahui panjang kedua diagonalnya (d1 dan d2), kita dapat mencari panjang sisi belah ketupat dengan menggunakan setengah dari masing-masing diagonal tersebut sebagai sisi penyiku segitiga siku-siku.</li>
+            </ul>
+            
+            <div class="soal-card">
+                <h3>Contoh Soal & Pembahasan</h3>
+                <p><b>Soal:</b> Sebuah persegi panjang mempunyai ukuran panjang 12 cm dan lebar 9 cm. Hitunglah panjang diagonal persegi panjang tersebut!</p>
+                <form onsubmit="bukaPembahasan(event, 'p6')">
+                    <label><input type="radio" name="pila" value="A"> A. 15 cm</label><br>
+                    <label><input type="radio" name="pila" value="B"> B. 21 cm</label><br>
+                    <label><input type="radio" name="pila" value="C"> C. 25 cm</label><br>
+                    <div>
+                        <button type="submit" class="btn btn-primary btn-sm">Submit Jawaban 🚀</button>
+                    </div>
+                </form>
+                <div id="p6" class="pembahasan-box">
+                    <p><b>Kunci Jawaban: A (15 cm)</b><br><u>Penjelasan:</u><br>Diagonal = √(panjang² + lebar²)<br>Diagonal = √(12² + 9²)<br>Diagonal = √(144 + 81) = √225 = 15 cm[cite: 8].</p>
+                </div>
+            </div>
+
+            <div class="mt-4"><a href="../materi.html" class="btn btn-primary">⬅️ Kembali ke Daftar Materi</a></div>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Website Pembelajaran Teorema Pythagoras SMP Kelas VIII. Dikembangkan oleh Abdulloh Aufa Sunni.</p></footer>
+    <script>function bukaPembahasan(e, id) { e.preventDefault(); document.getElementById(id).style.display = 'block'; }</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarak Dua Titik Koordinat - MathFun</title>
+    <link rel="stylesheet" href="../uts.css">
+</head>
+<body id="top">
+    <header>
+        <div class="logo-container"><h1>📐 MathFun - Teorema Pythagoras</h1></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="../materi.html" class="active">Materi</a></li>
+                <li><a href="../kuis.html">Kuis</a></li>
+                <li><a href="../glosarium.html">Glosarium</a></li>
+                <li><a href="../profil.html">Profil Pengembang</a></li>
+                <li><a href="../referensi.html">Referensi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="detail-box">
+            <h2>7. Jarak Dua Titik pada Koordinat Kartesius</h2>
+            <p>Jarak antara dua titik dengan koordinat (x₁, y₁) dan (x₂, y₂) pada bidang koordinat Kartesius dapat dihitung dengan memanfaatkan prinsip Pythagoras dari selisih absis (x) dan ordinat (y)-nya.</p>
+            
+            <div class="formula-box">
+                <code>Jarak = √((x₂ - x₁)² + (y₂ - y₁)²)</code>
+            </div>
+
+            <h3>Video Pembelajaran Bab 7:</h3>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7Y_UPZ2wfWY?si=WZwptaQqrpmPUasF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p class="video-source-note"><b>Sumber Video Edukasi: </b>Ghitswa Faiza Adi</p>
+            
+
+            <div class="soal-card">
+                <h3>Contoh Soal & Pembahasan</h3>
+                <p><b>Soal:</b> Tentukan jarak antara titik A(1, 2) dan titik B(4, 6) pada bidang koordinat Kartesius![cite: 10]</p>
+                <form onsubmit="bukaPembahasan(event, 'p7')">
+                    <label><input type="radio" name="pila" value="A"> A. 3 satuan</label><br>
+                    <label><input type="radio" name="pila" value="B"> B. 5 satuan</label><br>
+                    <label><input type="radio" name="pila" value="C"> C. 7 satuan</label><br>
+                    <div>
+                        <button type="submit" class="btn btn-primary btn-sm">Submit Jawaban 🚀</button>
+                    </div>
+                </form>
+                <div id="p7" class="pembahasan-box">
+                    <p><b>Kunci Jawaban: B (5 satuan)</b><br><u>Penjelasan:</u><br>Jarak = √((4 - 1)² + (6 - 2)²)<br>Jarak = √(3² + 4²)<br>Jarak = √(9 + 16) = √25 = 5 satuan[cite: 10].</p>
+                </div>
+            </div>
+
+            <div class="mt-4"><a href="../materi.html" class="btn btn-primary">⬅️ Kembali ke Daftar Materi</a></div>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Website Pembelajaran Teorema Pythagoras SMP Kelas VIII. Dikembangkan oleh Abdulloh Aufa Sunni.</p></footer>
+    <script>function bukaPembahasan(e, id) { e.preventDefault(); document.getElementById(id).style.display = 'block'; }</script>
+</body>
+</html>

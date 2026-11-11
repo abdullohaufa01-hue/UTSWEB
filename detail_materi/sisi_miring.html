@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Panjang Sisi Miring - MathFun</title>
+    <link rel="stylesheet" href="../uts.css">
+</head>
+<body id="top">
+    <header>
+        <div class="logo-container"><h1>📐 MathFun - Teorema Pythagoras</h1></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="../materi.html" class="active">Materi</a></li>
+                <li><a href="../kuis.html">Kuis</a></li>
+                <li><a href="../glosarium.html">Glosarium</a></li>
+                <li><a href="../profil.html">Profil Pengembang</a></li>
+                <li><a href="../referensi.html">Referensi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="detail-box">
+            <h2>2. Menghitung Panjang Sisi Miring (c)</h2>
+            <p>Jika diketahui panjang kedua sisi penyiku (a dan b), maka panjang sisi miring atau hipotenusa (c) dapat dihitung menggunakan rumus akar kuadrat dari jumlah kuadrat kedua sisi penyiku tersebut:</p>
+            
+            <div class="formula-box">
+                <code>c = √(a² + b²)</code>
+            </div>
+
+            <h3>Video Pembelajaran Bab 2:</h3>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1kJ9tb9LUME?si=egXYqHw85BFvAIDl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p class="video-source-note"><b>Sumber Video Edukasi: </b>Latihan Soal Online</p>
+            
+            <div class="soal-card">
+                <h3>Contoh Soal & Pembahasan</h3>
+                <p><b>Soal:</b> Diketahui sisi penyiku suatu segitiga siku-siku adalah 9 cm dan 12 cm. Hitunglah panjang sisi miringnya!</p>
+                <form onsubmit="bukaPembahasan(event, 'p2')">
+                    <label><input type="radio" name="pila" value="A"> A. 13 cm</label><br>
+                    <label><input type="radio" name="pila" value="B"> B. 15 cm</label><br>
+                    <label><input type="radio" name="pila" value="C"> C. 21 cm</label><br>
+                    <div>
+                        <button type="submit" class="btn btn-primary btn-sm">Submit Jawaban 🚀</button>
+                    </div>
+                </form>
+                <div id="p2" class="pembahasan-box">
+                    <p><b>Kunci Jawaban: B (15 cm)</b><br><u>Penjelasan:</u><br>c = √(9² + 12²)<br>c = √(81 + 144) = √225 = 15 cm.</p>
+                </div>
+            </div>
+
+            <div class="mt-4"><a href="../materi.html" class="btn btn-primary">⬅️ Kembali ke Daftar Materi</a></div>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Website Pembelajaran Teorema Pythagoras SMP Kelas VIII. Dikembangkan oleh Abdulloh Aufa Sunni.</p></footer>
+    <script>function bukaPembahasan(e, id) { e.preventDefault(); document.getElementById(id).style.display = 'block'; }</script>
+</body>
+</html>

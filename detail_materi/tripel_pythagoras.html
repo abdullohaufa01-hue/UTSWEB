@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripel Pythagoras - MathFun</title>
+    <link rel="stylesheet" href="../uts.css">
+</head>
+<body id="top">
+    <header>
+        <div class="logo-container"><h1>📐 MathFun - Teorema Pythagoras</h1></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="../materi.html" class="active">Materi</a></li>
+                <li><a href="../kuis.html">Kuis</a></li>
+                <li><a href="../glosarium.html">Glosarium</a></li>
+                <li><a href="../profil.html">Profil Pengembang</a></li>
+                <li><a href="../referensi.html">Referensi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="detail-box">
+            <h2>4. Tripel Pythagoras</h2>
+            <p>Tripel Pythagoras adalah kelompok tiga bilangan bulat positif yang memenuhi persamaan Teorema Pythagoras (a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>). Kelompok bilangan ini sering digunakan untuk mengenali segitiga siku-siku secara cepat (contoh umum: 3, 4, 5 dan 5, 12, 13).</p>
+
+            <h3>Video Pembelajaran Bab 4:</h3>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wQhNoJ8x9EQ?si=4mwfv5nGOwDlm8xi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p class="video-source-note"><b>Sumber Video Edukasi: </b>Mahir Matematika</p>
+            
+            <div class="soal-card">
+                <h3>Contoh Soal & Pembahasan</h3>
+                <p><b>Soal:</b> Di antara kelompok tiga bilangan berikut, manakah yang merupakan Tripel Pythagoras?</p>
+                <form onsubmit="bukaPembahasan(event, 'p4')">
+                    <label><input type="radio" name="pila" value="A"> A. 3, 5, 7</label><br>
+                    <label><input type="radio" name="pila" value="B"> B. 5, 12, 13</label><br>
+                    <label><input type="radio" name="pila" value="C"> C. 6, 8, 12</label><br>
+                    <div>
+                        <button type="submit" class="btn btn-primary btn-sm">Submit Jawaban 🚀</button>
+                    </div>
+                </form>
+                <div id="p4" class="pembahasan-box">
+                    <p><b>Kunci Jawaban: B (5, 12, 13)</b><br><u>Penjelasan:</u><br>5² + 12² = 25 + 144 = 169.<br>13² = 169 (Sama, sehingga memenuhi Tripel Pythagoras).</p>
+                </div>
+            </div>
+
+            <div class="mt-4"><a href="../materi.html" class="btn btn-primary">⬅️ Kembali ke Daftar Materi</a></div>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Website Pembelajaran Teorema Pythagoras SMP Kelas VIII. Dikembangkan oleh Abdulloh Aufa Sunni.</p></footer>
+    <script>function bukaPembahasan(e, id) { e.preventDefault(); document.getElementById(id).style.display = 'block'; }</script>
+</body>
+</html>

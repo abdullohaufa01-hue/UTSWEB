@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penerapan Kontekstual - MathFun</title>
+    <link rel="stylesheet" href="../uts.css">
+</head>
+<body id="top">
+    <header>
+        <div class="logo-container"><h1>📐 MathFun - Teorema Pythagoras</h1></div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Beranda</a></li>
+                <li><a href="../materi.html" class="active">Materi</a></li>
+                <li><a href="../kuis.html">Kuis</a></li>
+                <li><a href="../glosarium.html">Glosarium</a></li>
+                <li><a href="../profil.html">Profil Pengembang</a></li>
+                <li><a href="../referensi.html">Referensi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="detail-box">
+            <h2>8. Penerapan Kontekstual / Masalah Nyata</h2>
+            <p>Teorema Pythagoras tidak hanya digunakan dalam bentuk angka atau bangun datar murni, tetapi juga sangat bermanfaat dalam menyelesaikan berbagai permasalahan dalam kehidupan sehari-hari (kontekstual). Prinsip utamanya adalah menerjemahkan situasi nyata ke dalam bentuk segitiga siku-siku, di mana hubungan antar panjang sisi dapat dihitung menggunakan rumus a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup></p>
+            <p>Contoh penerapan nyata yang sering dijumpai meliputi:</p>
+            <ul>
+                <li>Menghitung tinggi benda atau dinding yang dicapai oleh tangga yang disandarkan.</li>
+                <li>Menghitung tinggi suatu menara atau gedung dari jarak pandang tertentu.</li>
+                <li>Menghitung jarak terpendek perjalanan (seperti rute pelayaran kapal atau perjalanan menuju suatu tempat).</li>
+            </ul>
+            <h3>Video Pembelajaran Bab 8:</h3>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/U-t1H6lw6tw?si=9UAIGs9_sHpBLJQv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p class="video-source-note"><b>Sumber Video Edukasi: </b>CoLearn | Bimbel Online 4 SD - 12 SMA</p>
+            
+            <div class="soal-card">
+                <h3>Contoh Soal & Pembahasan</h3>
+                <p><b>Soal:</b> Sebuah tangga sepanjang 10 meter bersandarkan pada tembok. Jika jarak ujung bawah tangga ke tembok adalah 6 meter, berapakah tinggi tembok yang dapat dicapai oleh tangga tersebut?</p>
+                <form onsubmit="bukaPembahasan(event, 'p8')">
+                    <label><input type="radio" name="pila" value="A"> A. 4 meter</label><br>
+                    <label><input type="radio" name="pila" value="B"> B. 8 meter</label><br>
+                    <label><input type="radio" name="pila" value="C"> C. 12 meter</label><br>
+                    <div>
+                        <button type="submit" class="btn btn-primary btn-sm">Submit Jawaban 🚀</button>
+                    </div>
+                </form>
+                <div id="p8" class="pembahasan-box">
+                    <p><b>Kunci Jawaban: B (8 meter)</b><br><u>Penjelasan:</u><br>Tinggi = √(10² - 6²)<br>Tinggi = √(100 - 36) = √64 = 8 meter.</p>
+                </div>
+            </div>
+
+            <div class="mt-4"><a href="../materi.html" class="btn btn-primary">⬅️ Kembali ke Daftar Materi</a></div>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Website Pembelajaran Teorema Pythagoras SMP Kelas VIII. Dikembangkan oleh Abdulloh Aufa Sunni.</p></footer>
+    <script>function bukaPembahasan(e, id) { e.preventDefault(); document.getElementById(id).style.display = 'block'; }</script>
+</body>
+</html>
